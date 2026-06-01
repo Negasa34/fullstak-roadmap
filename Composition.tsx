@@ -1,7 +1,7 @@
 ﻿import React from "react";
 import { useCurrentFrame, useVideoConfig, interpolate, staticFile } from "remotion";
 
-const roadmapPhoto = staticFile("roadmap-photo.png");
+const roadmapPhoto = staticFile("roadmap.svg");
 
 const ROADMAP_STEPS = [
   {
