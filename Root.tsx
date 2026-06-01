@@ -1,0 +1,17 @@
+import { Composition } from "remotion";
+import { EthiopiaMapComposition } from "./Composition";
+
+export const RemotionRoot: React.FC = () => {
+  return (
+    <>
+      <Composition
+        id="EthiopiaMap"
+        component={EthiopiaMapComposition}
+        durationInFrames={600}   // 10 seconds at 30 fps
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+    </>
+  );
+};
